@@ -5,7 +5,7 @@
 A video of GAN-generated frames drifts from Bucharest to London, while two pieces of music built from field recordings of each city play alongside it. The blurred frames show how memories of a home distort over time, and the sound shows how a place can be called back by the recordings that remind us of it.
 
 <p align="center">
-  <img src="exhibition.jpg" alt="The video projected in the exhibition space" width="640"><br>
+  <img src="images/exhibition.jpg" alt="The video projected in the exhibition space" width="640"><br>
   <em>The video as shown in the exhibition. Visitors listened on headphones, one pair for each city.</em>
 </p>
 
@@ -13,7 +13,7 @@ Made as my graduation project for BSc Creative Computing at the University of th
 
 ## Demo
 
-[![Watch the installation video on YouTube](https://img.youtube.com/vi/wHsIKdA9oV4/maxresdefault.jpg)](https://www.youtube.com/watch?v=wHsIKdA9oV4)
+[![Watch the installation video on YouTube](images/video-thumbnail.jpg)](https://www.youtube.com/watch?v=wHsIKdA9oV4)
 
 *Click the image to watch the video on YouTube.*
 
@@ -24,7 +24,7 @@ Immigrants often lose parts of their memory of home over time, and with it a par
 ## How it works
 
 <p align="center">
-  <img src="pipeline.png" alt="Pipeline: photos to GANs to frames, field recordings to pydub and numpy to notes, combined into one installation video" width="720">
+  <img src="images/pipeline.png" alt="Pipeline: photos to GANs to frames, field recordings to pydub and numpy to notes, combined into one installation video" width="720">
 </p>
 
 ### Visual: two GANs
@@ -35,7 +35,7 @@ Immigrants often lose parts of their memory of home over time, and with it a par
 - Running the trainings myself meant I could change the code and see its effect on the textures, so I could pick the version whose look matched the idea.
 
 <p align="center">
-  <img src="gan-outputs.jpg" alt="Eight GAN outputs: Bucharest on the top row and London on the bottom row, from blurred to clear" width="720"><br>
+  <img src="images/gan-outputs.jpg" alt="Eight GAN outputs: Bucharest on the top row and London on the bottom row, from blurred to clear" width="720"><br>
   <em>Selected GAN outputs. Top row: Bucharest. Bottom row: London. Each row goes from blurred to clear.</em>
 </p>
 
@@ -49,12 +49,12 @@ Immigrants often lose parts of their memory of home over time, and with it a par
 6. **Production.** In Logic Pro X, the MIDI is played on piano with piano chords and a bass line built from the same data, and the original field recordings are layered underneath so the source of the notes stays audible.
 
 <p align="center">
-  <img src="frequency-decibel.png" alt="Scatter plots of mapped frequency against mapped decibels for Bucharest and London" width="720"><br>
+  <img src="images/frequency-decibel.png" alt="Scatter plots of mapped frequency against mapped decibels for Bucharest and London" width="720"><br>
   <em>Frequency against decibel level for the recordings. Left: Bucharest. Right: London. Bigger dots are louder.</em>
 </p>
 
 <p align="center">
-  <img src="midi-notes.png" alt="MIDI note numbers over time for Bucharest and London" width="720"><br>
+  <img src="images/midi-notes.png" alt="MIDI note numbers over time for Bucharest and London" width="720"><br>
   <em>The resulting notes over time. Left: Bucharest. Right: London. Bigger dots are louder notes.</em>
 </p>
 
