@@ -21,12 +21,6 @@ Made as my graduation project for BSc Creative Computing at the University of th
 
 Immigrants often lose parts of their memory of home over time, and with it a part of their identity. This installation uses the tools themselves to express that. GAN training gives frames that are abstract and unclear at first and clearer later, which stands in for memories that blur. The sound works the other way: a recording of a place can bring back details that were forgotten. I used my own photos and recordings from the two places I call home.
 
-## How it works
-
-<p align="center">
-  <img src="images/pipeline.png" alt="Pipeline: photos to GANs to frames, field recordings to pydub and numpy to notes, combined into one installation video" width="720">
-</p>
-
 ### Visual: two GANs
 
 - A GAN was trained for each city on about 1,500 of my own photos. I started with around 600 and kept adding batches until the outputs were clear enough to read but still had some mystery.
